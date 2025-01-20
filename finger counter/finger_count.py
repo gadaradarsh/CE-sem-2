@@ -8,7 +8,7 @@ mp_draw = mp.solutions.drawing_utils
 
 # Start capturing video from webcam
 cap = cv2.VideoCapture(0)
-
+####
 while True:
     ret, frame = cap.read()
     if not ret:
